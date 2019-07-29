@@ -108,3 +108,63 @@ body {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
 }
 
+@media screen and (max-width: 980px) {
+    .posts__date {
+        font-size: 12px;
+    }
+
+    .posts__info h2 a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .posts__info h2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .posts__info {
+        padding: 10px 15px 15px 15px;
+    }
+
+    .posts__element--big .posts__info a {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .posts__element {
+        flex-basis: 49%;
+    }
+
+    .posts__element--big img {
+        flex-grow: 0;
+    }
+
+    .posts__element--big .posts__info {
+        position: static;
+        left: auto;
+        bottom: auto;
+        padding: 10px 15px 15px 15px;
+    }
+
+    .posts__element--big .posts__info a {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.75px;
+        color: black;
+    }
+
+    .posts__element--big:after {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .posts__element {
+        flex-basis: 100%;
+    }
+}
+
+
