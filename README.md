@@ -1,2 +1,2 @@
 # BlogBystefankuhl
-Flexbox training website
+Верстка тренировачного макета под флексбокс
